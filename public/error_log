@@ -1,0 +1,127 @@
+[14-Jan-2025 04:02:44 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/public_html/vendor/composer/platform_check.php on line 24
+[14-Jan-2025 04:03:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/public_html/vendor/composer/platform_check.php on line 24
+[14-Jan-2025 04:12:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[14-Jan-2025 04:12:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[03-Feb-2025 02:13:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:48 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:48 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:59 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:59 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[03-Feb-2025 02:13:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 13:58:06 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:09 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:17 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:20 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:23 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:47 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 13:58:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/gladisim/laravel/vendor/composer/platform_check.php on line 24
+[17-Feb-2025 23:53:33 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:33 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:36 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:36 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:42 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:42 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:44 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:44 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:50 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:50 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:51 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:51 UTC] PHP Warning:  require(/home/gladisim/laravel/vendor/composer/../../app/Helpers.php): Failed to open stream: No such file or directory in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[17-Feb-2025 23:53:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gladisim/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/gladisim/laravel/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/gladisim/laravel/vendor/composer/autoload_real.php(38): composerRequire777c4cf6ab679c908af54d070eaf50a6()
+#1 /home/gladisim/laravel/vendor/autoload.php(12): ComposerAutoloaderInit777c4cf6ab679c908af54d070eaf50a6::getLoader()
+#2 /home/gladisim/public_html/index.php(34): require('/home/gladisim/...')
+#3 {main}
+  thrown in /home/gladisim/laravel/vendor/composer/autoload_real.php on line 55
+[18-Feb-2025 00:12:00 UTC] PHP Parse error:  syntax error, unexpected identifier "prestasi_menu", expecting "]" in /home/gladisim/laravel/app/Helpers.php on line 167
+[18-Feb-2025 00:12:05 UTC] PHP Parse error:  syntax error, unexpected identifier "prestasi_menu", expecting "]" in /home/gladisim/laravel/app/Helpers.php on line 167
+[18-Feb-2025 00:12:07 UTC] PHP Parse error:  syntax error, unexpected identifier "prestasi_menu", expecting "]" in /home/gladisim/laravel/app/Helpers.php on line 167
+[18-Feb-2025 00:12:08 UTC] PHP Parse error:  syntax error, unexpected identifier "prestasi_menu", expecting "]" in /home/gladisim/laravel/app/Helpers.php on line 167
+[18-Feb-2025 00:12:10 UTC] PHP Parse error:  syntax error, unexpected identifier "prestasi_menu", expecting "]" in /home/gladisim/laravel/app/Helpers.php on line 167

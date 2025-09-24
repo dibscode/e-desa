@@ -1,0 +1,25 @@
+body {
+    color: #fff;
+    background-image: url("images/smpbg.jpg");
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+
+.formbox {
+    width: 400px;
+    height: 430px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    margin: auto auto;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    position: absolute;
+
+    box-shadow: 0 0 20px #000;
+    border: #000 1px solid;
+}
