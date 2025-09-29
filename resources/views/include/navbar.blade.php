@@ -16,16 +16,16 @@
         <div id="mega-menu-icons" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
             <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
                 <li>
-                    <a href="{{ route('index') }}" class="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page" data-aos="fade-down">Home</a>
+                    <a href="{{ route('index') }}" class="block py-2 px-3 {{ request()->routeIs('index') ? 'text-blue-600 dark:text-blue-500' : 'text-gray-900 dark:text-white' }} border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page" data-aos="fade-down">Home</a>
                 </li>
                 <li>
-                    <a href="{{ route('produk.frontend') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">Produk</a>
+                    <a href="{{ route('produk.frontend') }}" class="block py-2 px-3 {{ request()->routeIs('produk.frontend') ? 'text-blue-600 dark:text-blue-500' : 'text-gray-900 dark:text-white' }} border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">Produk</a>
                 </li>
                 <li>
-                    <a href="{{ route('berita.frontend') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">Berita</a>
+                    <a href="{{ route('berita.frontend') }}" class="block py-2 px-3 {{ request()->routeIs('berita.frontend') ? 'text-blue-600 dark:text-blue-500' : 'text-gray-900 dark:text-white' }} border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">Berita</a>
                 </li>
                 <li>
-                    <a href="{{ route('lapor.frontend') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">E-Lapor</a>
+                    <a href="{{ route('lapor.frontend') }}" class="block py-2 px-3 {{ request()->routeIs('lapor.frontend') ? 'text-blue-600 dark:text-blue-500' : 'text-gray-900 dark:text-white' }} border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-aos="fade-down">E-Lapor</a>
                 </li>
             </ul>
         </div>

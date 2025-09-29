@@ -38,7 +38,6 @@
                 <div class="col-span-3 text-center text-gray-500">Belum ada laporan.</div>
             @endforelse
         </div>
-
         <div class="mt-6">{{ $rows->links() }}</div>
     </div>
 
