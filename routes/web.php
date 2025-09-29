@@ -18,7 +18,7 @@ use App\Http\Controllers\Surat\KehilanganController;
 use App\Http\Controllers\Surat\KeramaianController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LaporController;
-
+use App\Http\Controllers\WebController;
 
 Route::middleware(['auth', 'level'])->group(
     function () {
@@ -101,15 +101,16 @@ Route::middleware(['auth'])->group(
         ]);
     }
 );
-
+ 
 
 Route::get('login', [UserController::class, 'loginForm'])->name('login');
 Route::post('login', [UserController::class, 'loginAction'])->name('login.action');
 Route::get('message', [HomeController::class, 'message'])->name('message');
-Route::get('/', function () {
-    return view('index');
-})->name('index');
-
+Route::get('/', [WebController::class,'index'])->name('index');
+Route::post('/ai-chat', [WebController::class, 'handleRequest'])->name('ai.chat');
+// Route::get('/', function () {
+//     return view('index');
+// })->name('index');
 // Frontend produk (public)
 use App\Models\Produk;
 Route::get('/produk', function() {

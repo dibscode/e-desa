@@ -22,7 +22,7 @@ class HomeController extends Controller
 {
     public function show()
     {
-        $data['title'] = 'Hello, '.Auth::user()->name;
+        $data['title'] = 'Hello, ' . Auth::user()->name;
 
         // Ambil profil desa/perusahaan
         $data['company'] = Profile::first();
@@ -98,17 +98,17 @@ class HomeController extends Controller
 
         $data['logs'] = LogSurat::orderBy('id', 'desc')->paginate(10);
 
-    // Lapor statistics
-    $data['lapor_belum'] = Lapor::where('status', 'belum')->count();
-    $data['lapor_proses'] = Lapor::where('status', 'proses')->count();
-    $data['lapor_selesai'] = Lapor::where('status', 'selesai')->count();
+        // Lapor statistics
+        $data['lapor_belum'] = Lapor::where('status', 'belum')->count();
+        $data['lapor_proses'] = Lapor::where('status', 'proses')->count();
+        $data['lapor_selesai'] = Lapor::where('status', 'selesai')->count();
 
-    // Keuangan totals
-    $data['keuangan_total_masuk'] = KeuanganDesa::sum('pemasukan');
-    $data['keuangan_total_keluar'] = KeuanganDesa::sum('pengeluaran');
+        // Keuangan totals
+        $data['keuangan_total_masuk'] = KeuanganDesa::sum('pemasukan');
+        $data['keuangan_total_keluar'] = KeuanganDesa::sum('pengeluaran');
 
-    // Total users
-    $data['total_users'] = User::count();
+        // Total users
+        $data['total_users'] = User::count();
 
         return view('home', $data);
     }
