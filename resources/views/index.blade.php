@@ -203,6 +203,7 @@
     }
     </style>
     <section class="relative bg-gray-700 bg-blend-multiply min-h-[350px] sm:min-h-[450px] md:min-h-[550px] lg:min-h-[650px] flex items-center dark:bg-gray-900 dark:bg-blend-multiply" data-aos="fade-down">
+        
         <!-- Video sebagai background -->
         <div class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-0 flex justify-center">
             <div class="relative w-full h-full max-w-full">
@@ -219,6 +220,7 @@
                 <div class="absolute inset-0 bg-black opacity-60"></div>
             </div>
         </div>
+
         <div class="relative px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 z-10 flex flex-col items-center justify-center w-full">
             <a data-aos="fade-down" href="{{ route('produk.frontend') }}" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
                 <span data-aos="fade-down" class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span class="text-sm font-medium">Produk lokal desa bisa dipasarkan disini</span> 
@@ -250,6 +252,7 @@
                     <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z"/></svg>
                 </a>  
             </div>
+
              <!-- Popup Modal -->
             <div id="popup-tutorial-surat" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 dark:bg-opacity-70 dark:bg-gray-900 hidden">
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full relative p-6">
@@ -280,6 +283,50 @@
                     document.getElementById('popup-tutorial-surat').classList.add('hidden');
                 };
             </script>
+        </div>
+    </section>
+ 
+    <!-- Section: Kepala Desa / Sambutan / Sejarah (statik) -->
+    <section class="bg-gray-50 dark:bg-gray-900 py-10">
+        <div class="max-w-screen-xl mx-auto px-4 lg:px-6">
+            <div class="mx-auto mb-8 max-w text-center pt-6">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Profil Desa</h2>
+                <p class="mb-4 text-gray-500 dark:text-gray-400">Informasi singkat kepala desa, sambutan, dan sejarah desa.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+                <!-- Left: Kepala Desa Image (static) -->
+                <div class="relative bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow h-full">
+                    <div class="absolute" style="top:1.25rem; left:1.25rem;">
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">Kepala Desa: Wayan Hendriyono</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-700">
+                        <img src="https://desago.id/klien/nusantara/upload/picture/5080536655969057kades2.jpg" alt="Kepala Desa" class="object-cover w-full h-full" onerror="this.onerror=null;this.src='https://via.placeholder.com/900x600?text=Kepala+Desa'" />
+                    </div>
+                </div>
+
+                <!-- Right: Sambutan (top) and Sejarah (bottom) - static content -->
+                <div class="flex flex-col gap-6 h-full">
+                    <div class="relative bg-white dark:bg-gray-800 rounded-lg shadow p-6 flex-1 min-h-0">
+                        <div class="absolute" style="top:1.5rem; left:1.5rem;">
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">Sambutan</span>
+                        </div>
+                        <br>
+                        <p class="mt-3 text-gray-600 dark:text-gray-300 text-sm leading-relaxed overflow-y-auto">
+                            Selamat datang di website resmi E-Desa. Kami berkomitmen memberikan pelayanan terbaik bagi seluruh warga. Semoga website ini mempermudah akses informasi dan layanan publik di desa kita.
+                        </p>
+                    </div>
+
+                    <div class="relative bg-white dark:bg-gray-800 rounded-lg shadow p-6 flex-1 min-h-0">
+                        <div class="absolute" style="top:1.5rem; left:1.5rem;">
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300">Sejarah Desa</span>
+                        </div>
+                        <br>
+                        <p class="mt-3 text-gray-600 dark:text-gray-300 text-sm leading-relaxed overflow-y-auto">
+                            Desa kami berdiri sejak tahun 1900-an dan berkembang sebagai pusat pertanian dan perdagangan lokal. Seiring waktu, infrastruktur dan layanan publik terus ditingkatkan untuk kesejahteraan warga.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -529,13 +576,6 @@
                         </div>
                         <h3 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Kasun</h3>
                         <span class="text-gray-500 dark:text-gray-400">Hendro P.</span>
-                    </div>
-                    <div class="flex flex-col items-center bg-gray-50 dark:bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="600">
-                        <div class="mb-4 flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 dark:bg-blue-900">
-                        <img src="https://nkripost.com/wp-content/uploads/2024/12/Gaji-Kepala-desa-se-Indonesia.jpg" alt="Kepala Desa" class="object-cover w-full h-full rounded-full" />
-                        </div>
-                        <h3 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Kasun</h3>
-                        <span class="text-gray-500 dark:text-gray-400">Fadhillah</span>
                     </div>
                 </div>
             </div>
