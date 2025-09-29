@@ -236,128 +236,63 @@
         }
     </style>
 
-    <section
-        class="relative bg-gray-700 bg-blend-multiply min-h-[350px] sm:min-h-[450px] md:min-h-[550px] lg:min-h-[650px] flex items-center dark:bg-gray-900 dark:bg-blend-multiply"
-        data-aos="fade-down">
     <section class="relative bg-gray-700 bg-blend-multiply min-h-[350px] sm:min-h-[450px] md:min-h-[550px] lg:min-h-[650px] flex items-center dark:bg-gray-900 dark:bg-blend-multiply" data-aos="fade-down">
-        
         <!-- Video sebagai background -->
         <div class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-0 flex justify-center">
             <div class="relative w-full h-full max-w-full">
-                <video src="{{ asset('storage/loop.mp4') }}" autoplay muted loop playsinline
-                    class="w-full h-full object-cover" style="pointer-events: none;"></video>
-                <!-- Overlay gelap agar teks tetap terbaca -->
+                <video src="{{ asset('storage/loop.mp4') }}" autoplay muted loop playsinline class="w-full h-full object-cover" style="pointer-events: none;"></video>
                 <div class="absolute inset-0 bg-black opacity-60"></div>
             </div>
         </div>
-<<<<<<< HEAD
-        <div
-            class="relative px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 z-10 flex flex-col items-center justify-center w-full">
-            <a data-aos="fade-down" href="{{ route('produk.frontend') }}"
-                class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
-                <span data-aos="fade-down"
-                    class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span
-                    class="text-sm font-medium">Produk lokal desa bisa dipasarkan disini</span>
-                <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 9 4-4-4-4" />
-=======
 
         <div class="relative px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 z-10 flex flex-col items-center justify-center w-full">
             <a data-aos="fade-down" href="{{ route('produk.frontend') }}" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
-                <span data-aos="fade-down" class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span class="text-sm font-medium">Produk lokal desa bisa dipasarkan disini</span> 
+                <span data-aos="fade-down" class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span>
+                <span class="text-sm font-medium">Produk lokal desa bisa dipasarkan disini</span>
                 <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
->>>>>>> 451504beaaabc674839c88da0d6adb83d915b95b
                 </svg>
             </a>
-            <h1 data-aos="fade-up"
-                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-                Kami Melayani Masyarakat <span
-                    class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">E-Desa</span>
-            </h1>
-            <p data-aos="fade-up" class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-                Website Resmi E-Desa – Mewujudkan Pelayanan Publik yang Transparan, Cepat, dan Responsif untuk
-                Masyarakat.
-            </p>
+
+            <h1 data-aos="fade-up" class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Kami Melayani Masyarakat <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">E-Desa</span></h1>
+
+            <p data-aos="fade-up" class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Website Resmi E-Desa – Mewujudkan Pelayanan Publik yang Transparan, Cepat, dan Responsif untuk Masyarakat.</p>
+
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                <a data-aos="fade-right" href="#" id="btn-tutorial-surat"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                    Cara Mengajukan Surat
-                    <svg style="width: 18px; padding-left: 6px; fill: white;" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 384 512">
-                        <path
-                            d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z" />
-                    </svg>
+                <a data-aos="fade-right" href="#" id="btn-tutorial-surat" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Cara Mengajukan Surat
+                    <svg style="width: 18px; padding-left: 6px; fill: white;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z"/></svg>
                 </a>
-                <a data-aos="fade-left" href="{{ route('produk.frontend') }}"
-                    class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">
-                    Belanja Produk Desa
-                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path
-                            d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-                    </svg>
+
+                <a data-aos="fade-left" href="{{ route('produk.frontend') }}" class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">Belanja Produk Desa
+                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
                 </a>
-                <a data-aos="fade-left" href="{{ route('lapor.frontend') }}"
-                    class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">
-                    E-Lapor
-                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path
-                            d="M213.1 128.8L202.7 160L128 160C92.7 160 64 188.7 64 224L64 480C64 515.3 92.7 544 128 544L512 544C547.3 544 576 515.3 576 480L576 224C576 188.7 547.3 160 512 160L437.3 160L426.9 128.8C420.4 109.2 402.1 96 381.4 96L258.6 96C237.9 96 219.6 109.2 213.1 128.8zM320 256C373 256 416 299 416 352C416 405 373 448 320 448C267 448 224 405 224 352C224 299 267 256 320 256z" />
-                    </svg>
+
+                <a data-aos="fade-left" href="{{ route('lapor.frontend') }}" class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">E-Lapor
+                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M213.1 128.8L202.7 160L128 160C92.7 160 64 188.7 64 224L64 480C64 515.3 92.7 544 128 544L512 544C547.3 544 576 515.3 576 480L576 224C576 188.7 547.3 160 512 160L437.3 160L426.9 128.8C420.4 109.2 402.1 96 381.4 96L258.6 96C237.9 96 219.6 109.2 213.1 128.8zM320 256C373 256 416 299 416 352C416 405 373 448 320 448C267 448 224 405 224 352C224 299 267 256 320 256z"/></svg>
                 </a>
-                <a data-aos="fade-left" href="javascript:void(0)"
-                    onclick="document.getElementById('open-chat-btn').click()"
-                    class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">
-                    Konsultasi AI
-                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path
-                            d="M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z" />
-                    </svg>
+
+                <a data-aos="fade-left" href="javascript:void(0)" onclick="document.getElementById('open-chat-btn').click()" class="inline-flex justify-center text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center rounded-lg border border-white bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:bg-gray-300">Konsultasi AI
+                    <svg style="width: 20px; padding-left: 4px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M576 304C576 436.5 461.4 544 320 544C282.9 544 247.7 536.6 215.9 523.3L97.5 574.1C88.1 578.1 77.3 575.8 70.4 568.3C63.5 560.8 62 549.8 66.8 540.8L115.6 448.6C83.2 408.3 64 358.3 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304z"/></svg>
                 </a>
             </div>
-<<<<<<< HEAD
-            <!-- Popup Modal -->
-            <div id="popup-tutorial-surat"
-                class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 dark:bg-opacity-70 dark:bg-gray-900 hidden">
-=======
 
-             <!-- Popup Modal -->
+            <!-- Popup Modal -->
             <div id="popup-tutorial-surat" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 dark:bg-opacity-70 dark:bg-gray-900 hidden">
->>>>>>> 451504beaaabc674839c88da0d6adb83d915b95b
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full relative p-6">
-                    <!-- Tombol Close -->
                     <h2 class="text-xl font-bold mb-4 text-blue-700 dark:text-blue-300">Tutorial Mengajukan Surat</h2>
                     <ol class="list-decimal list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                        <li>
-                            Silakan datang ke Balai E-Desa pada jam kerja yang telah ditentukan.
-                        </li>
-                        <li>
-                            Sampaikan permohonan pembuatan surat kepada operator desa yang bertugas.
-                        </li>
-                        <li>
-                            Operator desa akan segera memproses dan membuatkan surat sesuai data dan informasi yang Anda
-                            berikan.
-                        </li>
+                        <li>Silakan datang ke Balai E-Desa pada jam kerja yang telah ditentukan.</li>
+                        <li>Sampaikan permohonan pembuatan surat kepada operator desa yang bertugas.</li>
+                        <li>Operator desa akan segera memproses dan membuatkan surat sesuai data dan informasi yang Anda berikan.</li>
                     </ol>
                     <div class="mt-6 flex justify-end">
-                        <button id="close-popup-tutorial"
-                            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 transition">Tutup</button>
+                        <button id="close-popup-tutorial" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 transition">Tutup</button>
                     </div>
                 </div>
             </div>
             <script>
-                document.getElementById('btn-tutorial-surat').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.getElementById('popup-tutorial-surat').classList.remove('hidden');
-                });
-                document.getElementById('close-popup-tutorial').onclick = function() {
-                    document.getElementById('popup-tutorial-surat').classList.add('hidden');
-                };
+                document.getElementById('btn-tutorial-surat').addEventListener('click', function(e) { e.preventDefault(); document.getElementById('popup-tutorial-surat').classList.remove('hidden'); });
+                document.getElementById('close-popup-tutorial').onclick = function() { document.getElementById('popup-tutorial-surat').classList.add('hidden'); };
             </script>
         </div>
     </section>
@@ -761,19 +696,6 @@
                         <h3 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Kasun</h3>
                         <span class="text-gray-500 dark:text-gray-400">Hendro P.</span>
                     </div>
-<<<<<<< HEAD
-                    <div class="flex flex-col items-center bg-gray-50 dark:bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition"
-                        data-aos="fade-up" data-aos-delay="600">
-                        <div
-                            class="mb-4 flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 dark:bg-blue-900">
-                            <img src="https://nkripost.com/wp-content/uploads/2024/12/Gaji-Kepala-desa-se-Indonesia.jpg"
-                                alt="Kepala Desa" class="object-cover w-full h-full rounded-full" />
-                        </div>
-                        <h3 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Kasun</h3>
-                        <span class="text-gray-500 dark:text-gray-400">Fadhillah</span>
-                    </div>
-=======
->>>>>>> 451504beaaabc674839c88da0d6adb83d915b95b
                 </div>
             </div>
         </section>
